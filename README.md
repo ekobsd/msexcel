@@ -1,6 +1,6 @@
 -------------------------------------------------------------------------------------------
 
-<p align="center"><img width="auto" src="https://i0.wp.com/knowasap.com/wp-content/uploads/2020/03/EXCEL-d.png" /></p>
+<p align="center"><img width="auto" src="https://i0.wp.com/knowasap.com/wp-content/uploads/2020/03/EXCEL-d.png?fit=2000%2C1545&ssl=1" /></p>
 
 
 -------------------------------------------------------------------------------------------
