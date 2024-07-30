@@ -2,19 +2,18 @@
 
 ## About the Course
 
-This is a practical, non-material course designed for Excel 365 training. It comes with 3 simple philosophies:
+This is a practical, non-theoretical course designed for Excel 365 training. It comes with 3 simple philosophies:
 
-- Start as small as possible, then go long expanding your horizons.
+- Start small, then go long expanding your horizons.
 - Action first: Try, fail, fail more, learn.
 - search only what you need, forget the rest of the complex theory.
 
 ## Fun Fact
 
 There are 1000 pages of Excel book on the shelf, but we never opened it. 
-
 With Excel, knowing 10% allows most to do 90% of our needs.
 
-## Problem-solving framework
+## Problem-solving framework, for student notes.
 
 Pick a real-world problem, and try to solve it!
 
