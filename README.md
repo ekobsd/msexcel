@@ -25,7 +25,7 @@ When you find yourself facing errors:
   
 ## Milestone for the Future Excel Pro Player
 
-### Level 1 -- Novice
+### Level 1 -- Basic Operation
 
 #### Module 1
 Future Excel Pro Player will be comfortable with:
@@ -36,8 +36,8 @@ Future Excel Pro Player will be comfortable with:
 
 #### Module 2
 Future Excel Pro Player will be comfortable with:
-- [ ] Manipulating, duplicating, or moving cells
-- [ ] Playing with data (in good practice)
+- [ ] moving, duplicating, or manipulating cells
+- [ ] Playing with data inside cells and it's format
 - [ ] simple calculation and formulas
 - [ ] reference cells, reference sheets, or workbooks.
 
@@ -46,7 +46,7 @@ Future Excel Pro Player will be comfortable with:
 #### Module 3
 Future Excel Pro Player will be comfortable with:
 - [ ] table, filtering, and shorting
-- [ ] conditional logic
+- [ ] conditional logic 
 - [ ] INDEX MATCH / vlookup
 
 #### Module 4
@@ -57,16 +57,17 @@ Future Excel Pro Player will be comfortable with:
 
 #### Module 5
 Future Excel Pro Player will be comfortable with:
-- [ ] charts
-- [ ] dynamic shape
-- [ ] Quick analytics
-
-### Level 3 -- Advance
+- [ ] TRIM and PROPER
+- [ ] basic data visualization
+- [ ] Data Extraction
 
 #### Module 6
 Future Excel Pro Player will be comfortable with:
-- [ ] basic data visualization
-- [ ] Dashboard
+- [ ] charts
+- [ ] dynamic shape
+- [ ] pivot table #2
 
 #### Module 7
-- [ ] Final Project
+- [ ] Data source
+- [ ] Data handling
+- [ ] Dashboard creation
