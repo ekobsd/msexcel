@@ -28,14 +28,12 @@ When you find yourself facing errors:
 ### Level 1 -- Basic Operation
 
 #### Module 1
-Future Excel Pro Player will be comfortable with:
 - [x] creating, opening, and saving an Excel workbook
 - [x] working on worksheet
 - [x] navigating cells
 - [x] Selecting cells
 
 #### Module 2
-Future Excel Pro Player will be comfortable with:
 - [ ] moving, duplicating, or manipulating cells
 - [ ] Playing with data inside cells and it's format
 - [ ] simple calculation and formulas
@@ -44,25 +42,21 @@ Future Excel Pro Player will be comfortable with:
 ### Level 2 -- Intermediate
 
 #### Module 3
-Future Excel Pro Player will be comfortable with:
 - [ ] table, filtering, and shorting
 - [ ] conditional logic 
 - [ ] INDEX MATCH / vlookup
 
 #### Module 4
-Future Excel Pro Player will be comfortable with:
 - [ ] INDEX MATCH / vlookup #2
 - [ ] conditional logic #2
 - [ ] pivot table
 
 #### Module 5
-Future Excel Pro Player will be comfortable with:
 - [ ] TRIM and PROPER
 - [ ] basic data visualization
 - [ ] Data Extraction
 
 #### Module 6
-Future Excel Pro Player will be comfortable with:
 - [ ] charts
 - [ ] dynamic shape
 - [ ] pivot table #2
