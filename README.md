@@ -2,7 +2,7 @@
 
 ## About the Course
 
-This is a practical, non-material course designed to train Excel 365. It comes with 3 simple philosophies:
+This is a practical, non-material course designed for Excel 365 training. It comes with 3 simple philosophies:
 
 - Start as small as possible, then go long expanding your horizons.
 - Action first: Try, fail, fail more, learn.
