@@ -1,20 +1,41 @@
--------------------------------------------------------------------------------------------
-
-<p align="center"><img width="auto" src="https://i0.wp.com/knowasap.com/wp-content/uploads/2020/03/EXCEL-d.png?fit=2000%2C1545&ssl=1" /></p>
-
-
--------------------------------------------------------------------------------------------
 # Practical Excel 365 for Beginners
 
+## About the Course
 
-Getting started with Excel can be daunting for many. There is so much to learn and knowing where to start can be difficult. What is a cell? What is the formula bar? Don’t you use ribbons for your hair? If all this jargon is foreign to you, don’t feel alone. We are here to help. This module is aimed at those looking at Excel for the first time.
+This is a practical, non-material course designed to teach Excel 365. It comes with 3 simple philosophies:
 
-By the end of this module, you will be able to
+- Start as small as possible, then go long expanding your horizons.
+- Action first: Try, fail, fail more, learn.
+- search only what you need, forget the rest of the complex theory.
 
-· Open and Save Workbooks
+## Fun Fact
 
-· Navigate the Ribbons to find commands you need
+There are 1000 pages of Excel book on the shelf, but we never opened it. 
+With Excel, knowing 10% allows most to do 90% of our needs.
 
-· Enter Data and formulas
+## Problem-solving framework
 
-· 
+Pick a real-world problem, and try to solve it!
+
+When you find yourself facing errors:
+- Define your error and the goal that you want to achieve.
+- Search Google for the same problem
+- learn the logic of how the people share the solution for it
+  
+## Milestone for the Future Excel Pro Player
+
+### Level 1 -- Novice
+
+#### Module 1
+Future Excel Pro Player will be comfortable with:
+- [x] creating, opening, and saving an Excel workbook
+- [x] working on worksheet
+- [x] navigating cell
+- [x] Selecting cell
+
+#### Module 2
+Future Excel Pro Player will be comfortable with:
+- [ ] Manipulating cell
+- [x] Playing with data
+- [x] Playing with a simple calculation
+
