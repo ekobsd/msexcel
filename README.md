@@ -33,14 +33,15 @@ When you find yourself facing errors:
 - [x] Selecting cells
 
 #### Module 2
-- [ ] moving, duplicating, or manipulating cells
-- [ ] Playing with data inside cells and it's format
-- [ ] simple calculation and formulas
-- [ ] reference cells, reference sheets, or workbooks.
+- [x] moving, duplicating, or manipulating cells
+- [x] Playing with data inside cells and it's format
+- [x] simple calculation and formulas
+- [x] reference cells, reference sheets, or workbooks.
 
 ### Level 2 -- Intermediate
 
 #### Module 3
+- [ ] simple calculation and formula #2
 - [ ] table, filtering, and shorting
 - [ ] conditional logic 
 - [ ] INDEX MATCH / vlookup
