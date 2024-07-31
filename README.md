@@ -27,16 +27,17 @@ When you find yourself facing errors:
 ### Level 1 -- Basic Operation
 
 #### Module 1
-- [x] creating, opening, and saving an Excel workbook
-- [x] working on worksheet
-- [x] navigating cells
-- [x] Selecting cells
+:heavy_check_mark: creating, opening, and saving an Excel workbook
+:heavy_check_mark: working on worksheet
+:heavy_check_mark: navigating cells
+:heavy_check_mark: Selecting cells
 
 #### Module 2
-- [x] moving, duplicating, or manipulating cells
-- [x] Playing with data inside cells and it's format
-- [x] simple calculation and formulas
-- [x] reference cells, reference sheets, or workbooks.
+:heavy_check_mark: moving, duplicating, or manipulating cells
+:heavy_check_mark: Playing with data inside cells and it's format
+:heavy_check_mark: simple calculation and formulas
+:heavy_check_mark: Playing with series
+:heavy_check_mark: reference cells, reference sheets, or workbooks.
 
 ### Level 2 -- Intermediate
 
