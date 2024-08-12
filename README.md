@@ -49,11 +49,11 @@ When you find yourself facing errors:
 
 #### Module 4
 - [ ] INDEX MATCH / vlookup #2
-- [ ] conditional logic #2
+- [x] conditional logic #2
 - [ ] pivot table
 
 #### Module 5
-- [ ] TRIM and PROPER
+- [x] TRIM and PROPER
 - [ ] basic data visualization
 - [ ] Data Extraction
 
