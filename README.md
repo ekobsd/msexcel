@@ -42,9 +42,9 @@ When you find yourself facing errors:
 ### Level 2 -- Intermediate
 
 #### Module 3
-- [ ] simple calculation and formula #2
+- [x] simple calculation and formula #2
 - [ ] table, filtering, and shorting
-- [ ] conditional logic 
+- [x] conditional logic 
 - [ ] INDEX MATCH / vlookup
 
 #### Module 4
