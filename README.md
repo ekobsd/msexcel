@@ -43,12 +43,12 @@ When you find yourself facing errors:
 
 #### Module 3
 - [x] simple calculation and formula #2
-- [ ] table, filtering, and shorting
+- [x] table, filtering, and shorting
 - [x] conditional logic 
-- [ ] INDEX MATCH / vlookup
+- [x] INDEX MATCH / vlookup
 
 #### Module 4
-- [ ] INDEX MATCH / vlookup #2
+- [x] INDEX MATCH / vlookup #2
 - [x] conditional logic #2
 - [ ] pivot table
 
