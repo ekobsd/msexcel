@@ -90,18 +90,6 @@ This is a cheat sheet repo for Excel
 
 > Note: You can also return a formula in an IF statement (e.g. `=IF(A1>10, A1*2, A1*3)`)
 
-#### Dates
-
-- `=YEAR(TODAY())` - Returns the current year
-- `=TEXT(YEAR(TODAY()),"YY")` - Returns the current year in two digits (YY) format
-- `=TEXT(TODAY(),"DD/MM/YYYY")` - Returns the current date in DD/MM/YYYY format
-- `=MONTH(TODAY())` - Returns the current month
-- `=DAY(TODAY())` - Returns the current day
-- `=WEEKDAY(TODAY())` - Returns the current day of the week (e.g. 1 for Sunday, 2 for Monday, etc.)
-- `=TEXT(TODAY(),"dddd")` - Returns the current day of the week (e.g. Sunday, Monday, etc.)
-- `=DATE(YEAR(TODAY()), MONTH(TODAY()), DAY(TODAY())+1)` - Returns the date of tomorrow
-
-
 ### Absolute References (Lock the cell position)
 
 - You can use `$` to make a reference absolute (e.g. `$A$1`)
@@ -223,3 +211,14 @@ A Pivot Table allows you to summarize data from a table into a new table
 - Double click on the column right border to auto resize the column to fit the content
 - You can rotate text in a cell by selecting the cell and then clicking on the "Text Rotation" button in the toolbar
 - You can either use `.5` or `50%` to represent 50%
+
+#### Other Function about Dates
+
+- `=YEAR(TODAY())` - Returns the current year
+- `=TEXT(YEAR(TODAY()),"YY")` - Returns the current year in two digits (YY) format
+- `=TEXT(TODAY(),"DD/MM/YYYY")` - Returns the current date in DD/MM/YYYY format
+- `=MONTH(TODAY())` - Returns the current month
+- `=DAY(TODAY())` - Returns the current day
+- `=WEEKDAY(TODAY())` - Returns the current day of the week (e.g. 1 for Sunday, 2 for Monday, etc.)
+- `=TEXT(TODAY(),"dddd")` - Returns the current day of the week (e.g. Sunday, Monday, etc.)
+- `=DATE(YEAR(TODAY()), MONTH(TODAY()), DAY(TODAY())+1)` - Returns the date of tomorrow
