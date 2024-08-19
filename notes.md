@@ -4,7 +4,7 @@ This is a cheat sheet repo for Excel
 
 > Note: In this tutorial I will be using Ms Windows Keyboard layout
 
-## Keyboard Shortcuts -- Navigations and Selection
+## Keyboard Shortcuts -- Navigation and Selection
 
 | Shortcut        | Description                |
 | --------------- | -------------------------- |
