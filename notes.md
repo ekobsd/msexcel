@@ -32,7 +32,7 @@ This is a cheat sheet repo for Excel
 | --------------- | -------------------------- |
 | ctrl + t             | Creating a Table |
 
-> Note: We can remote the table by "Convert to range" menu on table design tab.
+> Note: We can remove the table(convert it as normal cell) by using "Convert to range" menu on table design tab.
 
 ## Tips
 
