@@ -133,12 +133,11 @@ A lookup table allows you to lookup a value in a table and return a value from a
 Pairing the INDEX and MATCH functions together allows you to return cells to the LEFT of your match. It's a pretty handy combination and the example file holds a simple demonstration for your reference.
 
 `INDEX` will need input:
-- range for reference
-- row position
-- column position
+- range for reference (change this with only column range, not the entire table)
+- row position (change this with `MATCH` for dinamically access the row position value)
+- column position (we can get rid of this, because the range for reference has already become one column
 
-> - In this course, we only need to change range as one column, not the entire table.
-> - We can get rid of column position because we only choose one column on the range, so the formula will be as simple as `=INDEX(Column range, row position)`
+> - so the formula will be as simple as `=INDEX(Column range, row position)`
 > - INDEX will return the value of selected selected with matching row position
 
 `MATCH` will need input
@@ -147,7 +146,7 @@ Pairing the INDEX and MATCH functions together allows you to return cells to the
 - number 1, 0, -1. We choose 0 for exactly match the value.
 - `MATCH` will return cell position value of exactly match compared cell
   
-> - We combine `INDEX` and `Match` for handy tools to fill up blank cell with proper value
+> - We combine `INDEX` and `Match` as a handy tools to fill up blank cell with proper value
 > - We use bracket [] to access column of table
 > - the formula will be `=INDEX(table[column for reference],match([@column to be compared], table[column to be reference],0))`
 > - We used an absolute reference ($ symbol) for the table if we want to be able to copy the formula to other cells
