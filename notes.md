@@ -152,34 +152,9 @@ Pairing the INDEX and MATCH functions together allows you to return cells to the
 > - the formula will be `=INDEX(table[column for reference],match([@column to be compared], table[column to be reference],0))`
 > - We used an absolute reference ($ symbol) for the table if we want to be able to copy the formula to other cells
 
-### Sort
+### Sorting table (passed due)
 
-You can sort selected cells, columns, rows or the entire sheet
-
-- Select the cells, columns, rows or the entire sheet you want to sort (e.g. click on the top left square to select the entire sheet)
-- Click on the "Data" menu and select "Sort range" -> "Advanced range sorting options"
-- If the sheet has a header row, check the "Data has header row" checkbox
-- Select the column you want to sort by
-- Select the order you want to sort by (e.g. "A to Z")
-- Click on the "Sort" button
-
-### Filter
-
-You can filter selected cells, columns, rows or the entire sheet
-
-#### Create a filter vs Filter Views
-
-- **Filter views**: The filter will be applied to the sheet and will be visible only to you
-- **Create a filter**: The filter will be applied to the sheet and will be visible to everyone who has access to the sheet
-
-#### Filter views
-
-- Click on the "Data" menu and select "Filter views" -> "Create new filter view"
-- Select the column you want to filter by
-- Select the condition you want to filter by (e.g. "Greater than")
-- Enter the value you want to filter by (e.g. 10)
-- Click on the "OK" button
-- Choose a name for the filter view (e.g. "Only sales from Arizona")
+### Filtering table (passed)
 
 ### Pivot Table
 
