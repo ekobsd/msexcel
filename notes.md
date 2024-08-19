@@ -13,7 +13,7 @@ This is a cheat sheet repo for Excel
 | ctrl + arrow down         | go all the way down/nearest filled cell down        |
 | ctrl + arrow left        | go all the way left/nearest filled cell left        |
 | ctrl + arrow right         | go all the way right/nearest filled cell right        |
-| ctrl + space         | select All Column        |
+| ctrl + space         | select all column        |
 | ctrl + a         | Select entire sheet or table(if curson is inside a table        |
 
 ## Keyboard Shortcuts -- Copy Pasting
