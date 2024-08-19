@@ -161,7 +161,7 @@ Pairing the INDEX and MATCH functions together allows you to return cells to the
   
 > - We combine `INDEX` and `Match` for handy tools to fill up blank cell with proper value
 > - We use bracket [] to access column of table
-> - the formula will be `=INDEX(table[column for reference],match([@table to be compared], table[column to be reference],0))`
+> - the formula will be `=INDEX(table[column for reference],match([@column to be compared], table[column to be reference],0))`
 > - We used an absolute reference ($ symbol) for the table if we want to be able to copy the formula to other cells
 
 ### Sort
