@@ -4,7 +4,19 @@ This is a cheat sheet repo for Excel
 
 > Note: In this tutorial I will be using Ms Windows Keyboard layout
 
-## Keyboard Shortcuts
+## Keyboard Shortcuts -- Navigations and Selection
+
+| Shortcut        | Description                |
+| --------------- | -------------------------- |
+| Tab             | Go to next cell in the row |
+| ctrl + arrow up         | go all the way up/nearest filled cell up        |
+| ctrl + arrow down         | go all the way down/nearest filled cell down        |
+| ctrl + arrow left        | go all the way left/nearest filled cell left        |
+| ctrl + arrow right         | go all the way right/nearest filled cell right        |
+| ctrl + space         | select All Column        |
+| ctrl + a         | Select entire sheet or table(if curson is inside a table        |
+
+## Keyboard Shortcuts -- Copy Pasting
 
 | Shortcut        | Description                |
 | --------------- | -------------------------- |
@@ -12,10 +24,7 @@ This is a cheat sheet repo for Excel
 | ctrl + c         | copy selected cell(s)        |
 | ctrl + x         | cut selected cell(s)        |
 | ctrl + v         | paste selected cell(s)        |
-| ctrl + arrow up         | go all the way up/nearest filled cell up        |
 | ctrl + shift + v | Paste values without style |
-| ctrl + d         | Fill down                  |
-| ctrl + a         | Select entire sheet        |
 
 ## Tips
 
