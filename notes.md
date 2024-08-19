@@ -151,9 +151,9 @@ Pairing the INDEX and MATCH functions together allows you to return cells to the
 > - the formula will be `=INDEX(table[column for reference],match([@column to be compared], table[column to be reference],0))`
 > - We used an absolute reference ($ symbol) for the table if we want to be able to copy the formula to other cells
 
-### Sorting table (passed due)
+### Sorting table (passed, William has mastered it)
 
-### Filtering table (passed)
+### Filtering table (passed, William has mastered it)
 
 ### Pivot Table
 
