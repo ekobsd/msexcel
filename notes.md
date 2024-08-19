@@ -48,10 +48,10 @@ This is a cheat sheet repo for Excel
 > Note: `A1` is a cell reference, `A` is the column and `1` is the row
 
 ### Functions
-> A function always followed with parenthesis symbol (open and closed)
-> A function needs input ("text", number, logical(True,False), or output from other function)
-> A function will produce and returning result (text, number, logical (true,false)
-> some common functions can be found below
+> - A function always followed with parenthesis symbol (open and closed)
+> - A function needs input ("text", number, logical(True,False), or output from other function)
+> - A function will produce and returning result (text, number, logical (true,false)
+> - some common functions can be found below
 
 #### Text
 
