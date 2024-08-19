@@ -139,6 +139,31 @@ Conditional formatting allows you to change the style of a cell based on its val
 
 > Note: starts at 1, not 0 like many programming languages
 
+### Lookup Table using INDEX MATCH
+
+A lookup table allows you to lookup a value in a table and return a value from another column in the same row
+Pairing the INDEX and MATCH functions together allows you to return cells to the LEFT of your match. It's a pretty handy combination and the example file holds a simple demonstration for your reference.
+
+`INDEX` will need input:
+- range for reference
+- row position
+- column position
+
+> - In this course, we only need to change range as one column, not the entire table.
+> - We can get rid of column position because we only choose one column on the range, so the formula will be as simple as `=INDEX(Column range, row position)`
+> - INDEX will return the value of selected selected with matching row position
+
+`MATCH` will need input
+- Value to be compared (we use @ for dinamically access each rows for table)
+- Value for reference (or column for reference to be compared)
+- number 1, 0, -1. We choose 0 for exactly match the value.
+- `MATCH` will return cell position value of exactly match compared cell
+  
+> - We combine `INDEX` and `Match` for handy tools to fill up blank cell with proper value
+> - We use bracket [] to access column of table
+> - the formula will be `=INDEX(table[column for reference],match([@table to be compared], table[column to be reference],0))`
+> - We used an absolute reference ($ symbol) for the table if we want to be able to copy the formula to other cells
+
 ### Sort
 
 You can sort selected cells, columns, rows or the entire sheet
@@ -182,33 +207,6 @@ A Pivot Table allows you to summarize data from a table into a new table
 - Click on the "Add" button
 
 > TIP: You can then insert a chart based on the pivot table
-
-### Lookup Table using INDEX MATCH
-
-A lookup table allows you to lookup a value in a table and return a value from another column in the same row
-Pairing the INDEX and MATCH functions together allows you to return cells to the LEFT of your match. It's a pretty handy combination and the example file holds a simple demonstration for your reference.
-
-INDEX will need input:
-- range for reference
-- row position
-- column position
-
-> In this course, we only need to change range as one column, not the entire table.
-> We can get rid of column position because we only choose one column on the range, so the formula will be as simple as =INDEX(Column range, row position)
-> INDEX will return the value of selected selected with matching row position
-
-`MATCH` will need input
-- Value to be compared (we use @ for dinamically access each rows for table)
-- Value for reference (or column for reference to be compared)
-- number 1, 0, -1. We choose 0 for exactly match the value.
-- `MATCH` will return cell position value of exactly match compared cell
-  
-> We combine `INDEX` and `Match` for handy tools to fill up blank cell with proper value
-> We use bracket [] to access column of table
-> the formula will be `=INDEX(table[column for reference],match([@table to be compared], table[column to be reference],0))`
-> 
-> We used an absolute reference ($ symbol) for the table if we want to be able to copy the formula to other cells
-
 
 ### Calculate the percentage of a currency value
 
