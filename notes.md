@@ -15,6 +15,7 @@ This is a cheat sheet repo for Excel
 | ctrl + arrow right         | go all the way right/nearest filled cell right        |
 | ctrl + space         | select all column        |
 | ctrl + a         | Select entire sheet or table(if curson is inside a table        |
+| shift + arrow         | Select cell following the arrow (up,left,down,right)       |
 
 ## Keyboard Shortcuts -- Copy Pasting
 
@@ -25,6 +26,14 @@ This is a cheat sheet repo for Excel
 | ctrl + x         | cut selected cell(s)        |
 | ctrl + v         | paste selected cell(s)        |
 | ctrl + shift + v | Paste values without style |
+
+## Keyboard Shortcuts -- Create a Table
+
+| Shortcut        | Description                |
+| --------------- | -------------------------- |
+| ctrl + t             | Creating a Table |
+
+> Note: We can remote the table by "Convert to range" menu on table design tab.
 
 ## Tips
 
@@ -40,6 +49,25 @@ This is a cheat sheet repo for Excel
 > Note: `A1` is a cell reference, `A` is the column and `1` is the row
 
 ### Functions
+> A function always followed with parenthesis symbol (open and closed)
+> A function needs input ("text", number, logical(True,False), or output from other function)
+> A function will produce and returning result (text, number, logical (true,false)
+> some common functions can be found below
+
+#### Text
+
+- `=CONCATENATE(A1, " ", B1)` - Returns the concatenation of the values in A1 and B1
+- `=LEFT(A1, 5)` - Returns the first 5 characters of the value in A1
+- `=RIGHT(A1, 5)` - Returns the last 5 characters of the value in A1
+- `=MID(A1, 5, 10)` - Returns 10 characters of the value in A1 starting from the 5th character
+- `=LEN(A1)` - Returns the length of the value in A1
+- `=LOWER(A1)` - Returns the value in A1 in lower case
+- `=UPPER(A1)` - Returns the value in A1 in upper case
+- `=PROPER(A1)` - Returns the value in A1 in proper case (e.g. "hello world" becomes "Hello World")
+- `=TRIM(A1)` - Returns the value in A1 with all leading and trailing spaces removed
+- `=SUBSTITUTE(A1, " ", "")` - Returns the value in A1 with all spaces removed
+
+> Note: Google Sheets and Excel have many more functions than the ones listed above
 
 #### Numbers
 
@@ -74,22 +102,8 @@ This is a cheat sheet repo for Excel
 - `=TEXT(TODAY(),"dddd")` - Returns the current day of the week (e.g. Sunday, Monday, etc.)
 - `=DATE(YEAR(TODAY()), MONTH(TODAY()), DAY(TODAY())+1)` - Returns the date of tomorrow
 
-#### Text
 
-- `=CONCATENATE(A1, " ", B1)` - Returns the concatenation of the values in A1 and B1
-- `=LEFT(A1, 5)` - Returns the first 5 characters of the value in A1
-- `=RIGHT(A1, 5)` - Returns the last 5 characters of the value in A1
-- `=MID(A1, 5, 10)` - Returns 10 characters of the value in A1 starting from the 5th character
-- `=LEN(A1)` - Returns the length of the value in A1
-- `=LOWER(A1)` - Returns the value in A1 in lower case
-- `=UPPER(A1)` - Returns the value in A1 in upper case
-- `=PROPER(A1)` - Returns the value in A1 in proper case (e.g. "hello world" becomes "Hello World")
-- `=TRIM(A1)` - Returns the value in A1 with all leading and trailing spaces removed
-- `=SUBSTITUTE(A1, " ", "")` - Returns the value in A1 with all spaces removed
-
-> Note: Google Sheets and Excel have many more functions than the ones listed above
-
-### Absolute References
+### Absolute References (Lock the cell position)
 
 - You can use `$` to make a reference absolute (e.g. `$A$1`)
 - If you copy a cell with an absolute reference and paste it into another cell, the reference will not be updated
@@ -109,13 +123,6 @@ Conditional formatting allows you to change the style of a cell based on its val
 - Select the style you want to apply to the cell if the condition is met (e.g. "Bold")
 - Click on the "Done" button
 
-### Insert Chart
-
-- Select the cells you want to include in the chart
-- Click on the "Insert" menu and select "Chart"
-- Select the type of chart you want to insert (e.g. "Column chart")
-- Style the chart as you want
-- Add x-axis data if needed
 
 ### Split Column Text to Multiple Columns
 
@@ -132,22 +139,6 @@ Conditional formatting allows you to change the style of a cell based on its val
 - `=MID(A1, 5, 10)` - Returns 10 characters from the `A1` cell starting from the 5th character
 
 > Note: starts at 1, not 0 like many programming languages
-
-### Fill Down
-
-Sometimes you want to fill down a column with the same value or formula
-
-#### Method 1
-
-- Select the cell you want to fill down
-- Click and hold the bottom right corner of the cell (the cursor should change to a cross)
-- Drag the cell down to the last cell you want to fill down
-
-#### Method 2
-
-- Select the cell you want to fill down
-- Hold down the `shift` key and press `down arrow` (or click on the last cell you want to fill down)
-- Click `cmd + d` to fill down the column
 
 ### Sort
 
@@ -193,38 +184,32 @@ A Pivot Table allows you to summarize data from a table into a new table
 
 > TIP: You can then insert a chart based on the pivot table
 
-### Lookup Table
+### Lookup Table using INDEX MATCH
 
 A lookup table allows you to lookup a value in a table and return a value from another column in the same row
+Pairing the INDEX and MATCH functions together allows you to return cells to the LEFT of your match. It's a pretty handy combination and the example file holds a simple demonstration for your reference.
 
-- Create a table with the values you want to lookup:
+INDEX will need input:
+- range for reference
+- row position
+- column position
 
-> Note: Those are simply two columns with values that you can put anywhere in the sheet
+> In this course, we only need to change range as one column, not the entire table.
+> We can get rid of column position because we only choose one column on the range, so the formula will be as simple as =INDEX(Column range, row position)
+> INDEX will return the value of selected selected with matching row position
 
-| B   | C        |
-| --- | -------- |
-| CR  | Chrysler |
-| FD  | Ford     |
+`MATCH` will need input
+- Value to be compared (we use @ for dinamically access each rows for table)
+- Value for reference (or column for reference to be compared)
+- number 1, 0, -1. We choose 0 for exactly match the value.
+- `MATCH` will return cell position value of exactly match compared cell
+  
+> We combine `INDEX` and `Match` for handy tools to fill up blank cell with proper value
+> We use bracket [] to access column of table
+> the formula will be `=INDEX(table[column for reference],match([@table to be compared], table[column to be reference],0))`
+> 
+> We used an absolute reference ($ symbol) for the table if we want to be able to copy the formula to other cells
 
-- Sort the table by the first column (e.g. "B"), if not the sorted, the lookup will not work
-
-> See [Sort](#sort)
-
-- Select the new cell you want to return the value to
-- Enter the formula `=VLOOKUP(A1, B$1:C$2, 2)`
-
-> Note: `A1` is the value you want to lookup (which in this case is placed in the A column), `B$1:C$2` is the table you want to lookup the value in, `2` is the lookup table column number you want to return the value from
->
-> We used an absolute reference for the table because we want to be able to copy the formula to other cells
-
-### Copy Charts to Google Docs and Slides
-
-You can copy and paste Charts between Google Sheets (or Excel) and Google Docs or Slides (or Word or PowerPoint)
-
-- Select the chart you want to copy
-- Click on the "Edit" menu and select "Copy"
-- Go to Google Docs or Slides
-- Paste the chart
 
 ### Calculate the percentage of a currency value
 
