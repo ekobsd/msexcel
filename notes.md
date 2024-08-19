@@ -14,7 +14,7 @@ This is a cheat sheet repo for Excel
 | ctrl + arrow left        | go all the way left/nearest filled cell left        |
 | ctrl + arrow right         | go all the way right/nearest filled cell right        |
 | ctrl + space         | select all column        |
-| ctrl + a         | Select entire sheet or table(if curson is inside a table        |
+| ctrl + a         | Select entire sheet or table(if curson is inside a table)        |
 | shift + arrow         | Select cell following the arrow (up,left,down,right)       |
 
 ## Keyboard Shortcuts -- Copy Pasting
