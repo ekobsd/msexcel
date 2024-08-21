@@ -25,6 +25,7 @@ This is a cheat sheet repo for Excel
 | ctrl + x         | cut selected cell(s)        |
 | ctrl + v         | paste selected cell(s)        |
 | ctrl + shift + v | Paste values without style |
+| ctrl + z | Undo your work one step backward |
 
 ## Keyboard Shortcuts -- Create a Table
 
